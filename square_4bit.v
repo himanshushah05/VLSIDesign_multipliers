@@ -1,4 +1,4 @@
-module square_4bit_20bei0013(input [3:0] a, output [7:0] p );
+module square_4bit(input [3:0] a, output [7:0] p );
   wire[5:0] w;
   supply0 zero;
   assign p[0]=a[0];
