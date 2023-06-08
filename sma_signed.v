@@ -1,4 +1,4 @@
-module sma_signed_20bei0013( input signed [3:0] a,  input signed [3:0] b,  output signed [7:0] p);
+module sma_signed( input signed [3:0] a,  input signed [3:0] b,  output signed [7:0] p);
   wire[18:0] w;
   supply1 one;
   supply0 zero;
